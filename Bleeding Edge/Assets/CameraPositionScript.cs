@@ -14,10 +14,10 @@ public class CameraPositionScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = m_CharacterPosition.position;
-		float horizontal = CrossPlatformInputManager.GetAxis("Look_Horizontal");
+		//transform.position = m_CharacterPosition.position;
+		//float horizontal = CrossPlatformInputManager.GetAxis("Look_Horizontal");
 
-		transform.Rotate( new Vector3( 0, horizontal * m_rotationSpeed, 0 ) );
+		//transform.parent.transform.Rotate( new Vector3( 0, m_rotationSpeed, 0 ) );
 	}
 
 	void GetRotationFromInput() {

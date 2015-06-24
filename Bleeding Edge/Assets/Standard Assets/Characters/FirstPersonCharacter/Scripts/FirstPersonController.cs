@@ -29,6 +29,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
 		[SerializeField] private bool m_IsVR;
 		[SerializeField] private Transform m_CameraDolly;
+		[SerializeField] private float m_rotationSpeed;
 
         private Camera m_Camera;
         private bool m_Jump;
@@ -44,7 +45,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
-        // Use this for initialization
+		private void Awake () {
+			#if UNITY_EDITOR
+			QualitySettings.vSyncCount = 0;  // VSync must be disabled
+			Application.targetFrameRate = 75;
+			#endif
+		}
+		
+		// Use this for initialization
         private void Start()
         {
             m_CharacterController = GetComponent<CharacterController>();
@@ -63,7 +71,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
-            RotateView();
+            
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
             {
@@ -98,8 +106,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             float speed;
             GetInput(out speed);
-            // always move along the camera forward as it is the direction that it being aimed at
-			Vector3 desiredMove = m_Camera.transform.forward*m_Input.y + m_Camera.transform.right*m_Input.x;
+            
+			RotateView();
+			// always move along the camera forward as it is the direction that it being aimed at
+			Vector3 desiredMove = transform.forward * m_Input.y + transform.right * m_Input.x;
 
             // get a normal for the surface that is being touched to move along it
             RaycastHit hitInfo;
@@ -109,7 +119,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             m_MoveDir.x = desiredMove.x*speed;
             m_MoveDir.z = desiredMove.z*speed;
-
 
             if (m_CharacterController.isGrounded)
             {
@@ -219,10 +228,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Input = new Vector2(horizontal, vertical);
 
             // normalize input if it exceeds 1 in combined length:
-            if (m_Input.sqrMagnitude > 1)
-            {
-                m_Input.Normalize();
-            }
+            //if (m_Input.sqrMagnitude > 1)
+            //{
+            //    m_Input.Normalize();
+            //}
+
+			if ( m_IsWalking ) {
+				speed *= m_Input.magnitude;
+			}
+
+
 
             // handle speed change to give an fov kick
             // only if the player is going to a run, is running and the fovkick is to be used
@@ -238,8 +253,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {            
 			//Vector3 yRotation = m_Camera.transform.forward;
 			//transform.rotation = Quaternion.LookRotation(yRotation);
-
-			//m_MouseLook.LookRotation (m_CameraDolly);
+			float horizontal = CrossPlatformInputManager.GetAxis("Look_Horizontal");
+			
+			transform.Rotate( new Vector3( 0, horizontal*m_rotationSpeed, 0 ) );
+			//m_MouseLook.LookRotation (transform, m_CameraDolly);
         }
 
 
