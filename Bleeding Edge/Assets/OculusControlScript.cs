@@ -11,6 +11,6 @@ public class OculusControlScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		CrossPlatformInputManager.GetButtonDown("o");
 	}
 }
