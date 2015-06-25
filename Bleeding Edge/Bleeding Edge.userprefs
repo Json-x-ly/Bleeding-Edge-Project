@@ -1,11 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OculusControlScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FirstPersonController.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="3" Column="1" />
-      <File FileName="Assets\CameraPositionScript.cs" Line="20" Column="5" />
-      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" Line="1" Column="1" />
-      <File FileName="Assets\OculusControlScript.cs" Line="14" Column="28" />
+      <File FileName="Assets\Scripts\FirstPersonController.cs" Line="67" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
