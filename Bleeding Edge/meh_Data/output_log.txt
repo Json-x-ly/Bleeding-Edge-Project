@@ -3,101 +3,20 @@ Initialize engine version: 5.1.1f1 (2046fc06d4d8)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 870M (ID=0x1199)
-    Vendor:   NVIDIA
-    VRAM:     2978 MB
+    Renderer: Intel(R) HD Graphics 5000 (ID=0xa26)
+    Vendor:   Intel
+    VRAM:     896 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.142 seconds
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+Platform assembly: C:\Users\Albert\Documents\GitHub\Bleeding-Edge-Project\Bleeding Edge\meh_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Albert\Documents\GitHub\Bleeding-Edge-Project\Bleeding Edge\meh_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Albert\Documents\GitHub\Bleeding-Edge-Project\Bleeding Edge\meh_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Albert\Documents\GitHub\Bleeding-Edge-Project\Bleeding Edge\meh_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Albert\Documents\GitHub\Bleeding-Edge-Project\Bleeding Edge\meh_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Albert\Documents\GitHub\Bleeding-Edge-Project\Bleeding Edge\meh_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Albert\Documents\GitHub\Bleeding-Edge-Project\Bleeding Edge\meh_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Albert\Documents\GitHub\Bleeding-Edge-Project\Bleeding Edge\meh_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.195 seconds
+desktop: 2160x1440 59Hz; virtual: 2160x1440 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: E:\Unity Projects\Oculus Attempt 2\meh_Data\Managed\System.dll (this message is harmless)
-[CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT32_0_6.dll
-
- 
-(Filename:  Line: 46)
-
-Crash!!!
-SymInit: Symbol-SearchPath: '.', symOptions: 534, UserName: 'Rojibora'
-OS-Version: 6.3.9600 () 0x300-0x1
-E:\Unity Projects\Oculus Attempt 2\meh.exe:meh.exe (01270000), size: 16883712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.1.18172
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (77020000), size: 1474560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\KERNEL32.DLL:KERNEL32.DLL (76630000), size: 1310720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\KERNELBASE.dll:KERNELBASE.dll (76B30000), size: 847872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (6FF60000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\WS2_32.dll:WS2_32.dll (76E20000), size: 315392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\USER32.dll:USER32.dll (76890000), size: 1376256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (72720000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\ole32.dll:ole32.dll (76150000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\SHLWAPI.dll:SHLWAPI.dll (74B60000), size: 266240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\ADVAPI32.dll:ADVAPI32.dll (74AE0000), size: 487424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\GDI32.dll:GDI32.dll (74E10000), size: 1081344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\SHELL32.dll:SHELL32.dll (74F20000), size: 18485248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (6FD40000), size: 868352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (74910000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\OLEAUT32.dll:OLEAUT32.dll (76CC0000), size: 552960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\MSACM32.dll:MSACM32.dll (6FD20000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\IMM32.dll:IMM32.dll (76800000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (6FFF0000), size: 507904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (745E0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (72870000), size: 606208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\msvcrt.dll:msvcrt.dll (76C00000), size: 778240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.9600.16384
-C:\WINDOWS\SYSTEM32\NSI.dll:NSI.dll (74AB0000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\RPCRT4.dll:RPCRT4.dll (76D60000), size: 724992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\combase.dll:combase.dll (769E0000), size: 1368064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\sechost.dll:sechost.dll (765E0000), size: 253952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (70B10000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\DDRAW.dll:DDRAW.dll (6DE00000), size: 946176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (74260000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\MSCTF.dll:MSCTF.dll (74D10000), size: 1011712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (74510000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\SspiCli.dll:SspiCli.dll (74A50000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (71200000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (763F0000), size: 237568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\DEVOBJ.dll:DEVOBJ.dll (74930000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (74A40000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\bcryptPrimitives.dll:bcryptPrimitives.dll (749E0000), size: 331776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\shcore.dll:shcore.dll (74890000), size: 487424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-E:\Unity Projects\Oculus Attempt 2\meh_Data\Mono\mono.dll:mono.dll (10000000), size: 2293760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.0.1
-C:\WINDOWS\SYSTEM32\PSAPI.DLL:PSAPI.DLL (76D50000), size: 24576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (74430000), size: 282624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (746C0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (72790000), size: 901120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-c:\PROGRA~2\mcafee\SITEAD~1\saHook.dll:saHook.dll (743A0000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.0.0.274
-C:\WINDOWS\system32\dwmapi.dll:dwmapi.dll (74280000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\Program Files\WIDCOMM\Bluetooth Software\SysWOW64\BtMmHook.dll:BtMmHook.dll (55500000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.0.8070
-E:\Unity Projects\Oculus Attempt 2\meh_Data\Plugins\OVRPlugin.dll:OVRPlugin.dll (5C650000), size: 49152 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (69F90000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
-C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (69EA0000), size: 974848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (63FC0000), size: 1757184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (68710000), size: 401408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\nvwgf2um.dll:nvwgf2um.dll (53270000), size: 15835136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.13.3260
-C:\WINDOWS\system32\nvspcap.dll:nvspcap.dll (06AF0000), size: 1327104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.4.5.44
-C:\WINDOWS\SYSTEM32\SETUPAPI.dll:SETUPAPI.dll (76430000), size: 1753088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\MMDevAPI.DLL:MMDevAPI.DLL (74210000), size: 294912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\wdmaud.drv:wdmaud.drv (6B830000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\ksuser.dll:ksuser.dll (711F0000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (70CD0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (72730000), size: 344064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (74850000), size: 253952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\msacm32.drv:msacm32.drv (706E0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\midimap.dll:midimap.dll (706D0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\dsound.dll:dsound.dll (6B7B0000), size: 495616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-C:\WINDOWS\SYSTEM32\clbcatq.dll:clbcatq.dll (760D0000), size: 512000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10530.16384
-C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.16384_none_a9f4965301334e09\comctl32.dll:comctl32.dll (71000000), size: 1986560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.9600.16384
-C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00400000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
-C:\WINDOWS\SYSTEM32\LibOVRRT32_0_6.dll:LibOVRRT32_0_6.dll (5C760000), size: 659456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.57493
-C:\WINDOWS\SYSTEM32\DbgHelp.dll:DbgHelp.dll (6B280000), size: 1343488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
-
-========== OUTPUTING STACK TRACE ==================
-
