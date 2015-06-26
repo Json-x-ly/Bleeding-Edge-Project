@@ -34,7 +34,24 @@ public class BezierSpline : MonoBehaviour {
 	public Vector3 GetControlPoint (int index) {
 		return points[index];
 	}
-
+    public int GetNearestPoint(Vector3 from){
+        float dist = float.MaxValue;
+        int index=0;
+        for(int x =0;x<points.Length;x++){
+            if(dist>Vector3.Distance(points[x],from)){
+                index=x;
+                dist=Vector3.Distance(points[x],from);
+            }
+        }
+        return index;
+    }
+    public Vector3 GetPointPos(int index){
+        return points[index];
+    }
+    public float GetPointTiming(int index)
+    {
+        return ((float)index) / ((float)points.Length);
+    }
 	public void SetControlPoint (int index, Vector3 point) {
 		if (index % 3 == 0) {
 			Vector3 delta = point - points[index];
