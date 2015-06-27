@@ -9,6 +9,9 @@ public class ScannerLogic : MonoBehaviour {
     public Vector3 target;
     public float turnSpeed = 50;
     public float moveSpeed = 2;
+	public float distToPlayer{
+		get{return Vector3.Distance (transform.position, PlayerLogic.main.transform.position); }
+	}
 	// Use this for initialization
     void Awake()
     {
@@ -34,6 +37,11 @@ public class ScannerLogic : MonoBehaviour {
         break;
             case _state.HardTracking:
                 //Activly move to the player
+			SeekTarget(PlayerLogic.main.transform.position);
+			if(distToPlayer<30){
+				state=_state.OnRail;
+			}
+
         break;
             case _state.SoftTracking:
                 //Randomly moving after player has not been seens
@@ -57,6 +65,10 @@ public class ScannerLogic : MonoBehaviour {
         {
             return true;
         }
+
+		if (distToPlayer < 20) {
+			state=_state.HardTracking;
+		}
         return false;
     }
 }
