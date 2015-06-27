@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 3588a9a080bd34c47818eb66fe69c1fd
+timeCreated: 1435358887
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Body1
+    100002: Eye
+    100004: Eye_Casing
+    100006: Eye_JNT
+    100008: EyeCase_JNT
+    100010: L_Cylinder
+    100012: L_Thruster
+    100014: L_Thruster_JNT
+    100016: //RootNode
+    100018: LargeRing
+    100020: R_Cylinder
+    100022: R_Thruster
+    100024: R_Thruster_JNT
+    100026: ROOT
+    100028: RotatingLarge_JNT
+    100030: RotatingSmall_JNT
+    100032: SmallRing
+    400000: Body1
+    400002: Eye
+    400004: Eye_Casing
+    400006: Eye_JNT
+    400008: EyeCase_JNT
+    400010: L_Cylinder
+    400012: L_Thruster
+    400014: L_Thruster_JNT
+    400016: //RootNode
+    400018: LargeRing
+    400020: R_Cylinder
+    400022: R_Thruster
+    400024: R_Thruster_JNT
+    400026: ROOT
+    400028: RotatingLarge_JNT
+    400030: RotatingSmall_JNT
+    400032: SmallRing
+    2300000: Body1
+    2300002: Eye
+    2300004: Eye_Casing
+    2300006: L_Cylinder
+    2300008: L_Thruster
+    2300010: LargeRing
+    2300012: R_Cylinder
+    2300014: R_Thruster
+    2300016: SmallRing
+    3300000: Body1
+    3300002: Eye
+    3300004: Eye_Casing
+    3300006: L_Cylinder
+    3300008: L_Thruster
+    3300010: LargeRing
+    3300012: R_Cylinder
+    3300014: R_Thruster
+    3300016: SmallRing
+    4300000: Body1
+    4300002: R_Thruster
+    4300004: R_Cylinder
+    4300006: L_Thruster
+    4300008: L_Cylinder
+    4300010: LargeRing
+    4300012: SmallRing
+    4300014: Eye_Casing
+    4300016: Eye
+    7400000: Hover
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hover
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body1
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_JNT
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye
+        weight: 1
+      - path: ROOT/EyeCase_JNT
+        weight: 1
+      - path: ROOT/EyeCase_JNT/Eye_Casing
+        weight: 1
+      - path: ROOT/L_Thruster_JNT
+        weight: 1
+      - path: ROOT/L_Thruster_JNT/L_Thruster
+        weight: 1
+      - path: ROOT/L_Thruster_JNT/L_Thruster/L_Cylinder
+        weight: 1
+      - path: ROOT/R_Thruster_JNT
+        weight: 1
+      - path: ROOT/R_Thruster_JNT/R_Thruster
+        weight: 1
+      - path: ROOT/R_Thruster_JNT/R_Thruster/R_Cylinder
+        weight: 1
+      - path: ROOT/RotatingLarge_JNT
+        weight: 1
+      - path: ROOT/RotatingLarge_JNT/LargeRing
+        weight: 1
+      - path: ROOT/RotatingSmall_JNT
+        weight: 1
+      - path: ROOT/RotatingSmall_JNT/SmallRing
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: ROOT
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
