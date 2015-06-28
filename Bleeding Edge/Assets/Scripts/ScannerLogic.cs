@@ -38,7 +38,7 @@ public class ScannerLogic : MonoBehaviour {
             case _state.HardTracking:
                 //Activly move to the player
 			SeekTarget(PlayerLogic.main.transform.position);
-			if(distToPlayer<30){
+			if(distToPlayer>30){
 				state=_state.OnRail;
 			}
 
