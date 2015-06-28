@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 6395cf53c1a927547888305574c573bf
+timeCreated: 1435179461
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: group1
+    100002: group10
+    100004: group11
+    100006: group12
+    100008: group2
+    100010: group3
+    100012: group4
+    100014: group5
+    100016: group6
+    100018: group7
+    100020: group8
+    100022: group9
+    100024: pCylinder2
+    100026: pCylinder3
+    100028: polySurface1
+    100030: polySurface12
+    100032: polySurface13
+    100034: polySurface14
+    100036: polySurface16
+    100038: polySurface18
+    100040: polySurface20
+    100042: polySurface22
+    100044: polySurface24
+    100046: polySurface26
+    100048: polySurface27
+    100050: polySurface28
+    100052: polySurface29
+    100054: polySurface29 1
+    100056: polySurface29 2
+    100058: polySurface29 3
+    100060: polySurface29 4
+    100062: polySurface29 5
+    100064: polySurface29 6
+    100066: polySurface30
+    100068: polySurface30 1
+    100070: polySurface30 2
+    100072: polySurface30 3
+    100074: polySurface30 4
+    100076: polySurface30 5
+    100078: polySurface30 6
+    100080: polySurface4
+    100082: polySurface6
+    100084: pPipe1
+    100086: pPipe11
+    100088: pPipe13
+    100090: pPipe15
+    100092: pPipe17
+    100094: pPipe19
+    100096: pPipe2
+    100098: pPipe21
+    100100: pPipe3
+    100102: pPipe7
+    100104: pPipe9
+    100106: pSphere1
+    100108: pSphere2
+    100110: pSphere3
+    100112: pSphere4
+    100114: pSphere46
+    100116: pSphere47
+    100118: pSphere48
+    100120: pSphere49
+    100122: pSphere5
+    100124: pSphere50
+    100126: pSphere51
+    100128: pSphere6
+    100130: pSphere62
+    100132: pSphere63
+    100134: pSphere64
+    100136: pSphere65
+    100138: pSphere7
+    100140: pSphere83
+    100142: pSphere84
+    100144: pSphere85
+    100146: pSphere86
+    100148: pSphere87
+    100150: pSphere88
+    100152: pSphere89
+    100154: pSphere90
+    100156: pSphere91
+    100158: pSphere92
+    100160: pSphere93
+    100162: pSphere94
+    100164: pSphere95
+    100166: pSphere96
+    100168: pSphere97
+    100170: pTorus20
+    100172: pTorus21
+    100174: pTorus22
+    100176: pTorus23
+    100178: //RootNode
+    100180: wing
+    100182: wing1
+    400000: group1
+    400002: group10
+    400004: group11
+    400006: group12
+    400008: group2
+    400010: group3
+    400012: group4
+    400014: group5
+    400016: group6
+    400018: group7
+    400020: group8
+    400022: group9
+    400024: pCylinder2
+    400026: pCylinder3
+    400028: polySurface1
+    400030: polySurface12
+    400032: polySurface13
+    400034: polySurface14
+    400036: polySurface16
+    400038: polySurface18
+    400040: polySurface20
+    400042: polySurface22
+    400044: polySurface24
+    400046: polySurface26
+    400048: polySurface27
+    400050: polySurface28
+    400052: polySurface29
+    400054: polySurface29 1
+    400056: polySurface29 2
+    400058: polySurface29 3
+    400060: polySurface29 4
+    400062: polySurface29 5
+    400064: polySurface29 6
+    400066: polySurface30
+    400068: polySurface30 1
+    400070: polySurface30 2
+    400072: polySurface30 3
+    400074: polySurface30 4
+    400076: polySurface30 5
+    400078: polySurface30 6
+    400080: polySurface4
+    400082: polySurface6
+    400084: pPipe1
+    400086: pPipe11
+    400088: pPipe13
+    400090: pPipe15
+    400092: pPipe17
+    400094: pPipe19
+    400096: pPipe2
+    400098: pPipe21
+    400100: pPipe3
+    400102: pPipe7
+    400104: pPipe9
+    400106: pSphere1
+    400108: pSphere2
+    400110: pSphere3
+    400112: pSphere4
+    400114: pSphere46
+    400116: pSphere47
+    400118: pSphere48
+    400120: pSphere49
+    400122: pSphere5
+    400124: pSphere50
+    400126: pSphere51
+    400128: pSphere6
+    400130: pSphere62
+    400132: pSphere63
+    400134: pSphere64
+    400136: pSphere65
+    400138: pSphere7
+    400140: pSphere83
+    400142: pSphere84
+    400144: pSphere85
+    400146: pSphere86
+    400148: pSphere87
+    400150: pSphere88
+    400152: pSphere89
+    400154: pSphere90
+    400156: pSphere91
+    400158: pSphere92
+    400160: pSphere93
+    400162: pSphere94
+    400164: pSphere95
+    400166: pSphere96
+    400168: pSphere97
+    400170: pTorus20
+    400172: pTorus21
+    400174: pTorus22
+    400176: pTorus23
+    400178: //RootNode
+    400180: wing
+    400182: wing1
+    2300000: pCylinder2
+    2300002: pCylinder3
+    2300004: polySurface12
+    2300006: polySurface13
+    2300008: polySurface14
+    2300010: polySurface16
+    2300012: polySurface18
+    2300014: polySurface20
+    2300016: polySurface22
+    2300018: polySurface24
+    2300020: polySurface26
+    2300022: polySurface27
+    2300024: polySurface28
+    2300026: polySurface29
+    2300028: polySurface29 1
+    2300030: polySurface29 2
+    2300032: polySurface29 3
+    2300034: polySurface29 4
+    2300036: polySurface29 5
+    2300038: polySurface29 6
+    2300040: polySurface30
+    2300042: polySurface30 1
+    2300044: polySurface30 2
+    2300046: polySurface30 3
+    2300048: polySurface30 4
+    2300050: polySurface30 5
+    2300052: polySurface30 6
+    2300054: polySurface4
+    2300056: polySurface6
+    2300058: pPipe1
+    2300060: pPipe11
+    2300062: pPipe13
+    2300064: pPipe15
+    2300066: pPipe17
+    2300068: pPipe19
+    2300070: pPipe2
+    2300072: pPipe21
+    2300074: pPipe3
+    2300076: pPipe7
+    2300078: pPipe9
+    2300080: pSphere1
+    2300082: pSphere2
+    2300084: pSphere3
+    2300086: pSphere4
+    2300088: pSphere46
+    2300090: pSphere47
+    2300092: pSphere48
+    2300094: pSphere49
+    2300096: pSphere5
+    2300098: pSphere50
+    2300100: pSphere51
+    2300102: pSphere6
+    2300104: pSphere62
+    2300106: pSphere63
+    2300108: pSphere64
+    2300110: pSphere65
+    2300112: pSphere7
+    2300114: pSphere83
+    2300116: pSphere84
+    2300118: pSphere85
+    2300120: pSphere86
+    2300122: pSphere87
+    2300124: pSphere88
+    2300126: pSphere89
+    2300128: pSphere90
+    2300130: pSphere91
+    2300132: pSphere92
+    2300134: pSphere93
+    2300136: pSphere94
+    2300138: pSphere95
+    2300140: pSphere96
+    2300142: pSphere97
+    2300144: pTorus20
+    2300146: pTorus21
+    2300148: pTorus22
+    2300150: pTorus23
+    3300000: pCylinder2
+    3300002: pCylinder3
+    3300004: polySurface12
+    3300006: polySurface13
+    3300008: polySurface14
+    3300010: polySurface16
+    3300012: polySurface18
+    3300014: polySurface20
+    3300016: polySurface22
+    3300018: polySurface24
+    3300020: polySurface26
+    3300022: polySurface27
+    3300024: polySurface28
+    3300026: polySurface29
+    3300028: polySurface29 1
+    3300030: polySurface29 2
+    3300032: polySurface29 3
+    3300034: polySurface29 4
+    3300036: polySurface29 5
+    3300038: polySurface29 6
+    3300040: polySurface30
+    3300042: polySurface30 1
+    3300044: polySurface30 2
+    3300046: polySurface30 3
+    3300048: polySurface30 4
+    3300050: polySurface30 5
+    3300052: polySurface30 6
+    3300054: polySurface4
+    3300056: polySurface6
+    3300058: pPipe1
+    3300060: pPipe11
+    3300062: pPipe13
+    3300064: pPipe15
+    3300066: pPipe17
+    3300068: pPipe19
+    3300070: pPipe2
+    3300072: pPipe21
+    3300074: pPipe3
+    3300076: pPipe7
+    3300078: pPipe9
+    3300080: pSphere1
+    3300082: pSphere2
+    3300084: pSphere3
+    3300086: pSphere4
+    3300088: pSphere46
+    3300090: pSphere47
+    3300092: pSphere48
+    3300094: pSphere49
+    3300096: pSphere5
+    3300098: pSphere50
+    3300100: pSphere51
+    3300102: pSphere6
+    3300104: pSphere62
+    3300106: pSphere63
+    3300108: pSphere64
+    3300110: pSphere65
+    3300112: pSphere7
+    3300114: pSphere83
+    3300116: pSphere84
+    3300118: pSphere85
+    3300120: pSphere86
+    3300122: pSphere87
+    3300124: pSphere88
+    3300126: pSphere89
+    3300128: pSphere90
+    3300130: pSphere91
+    3300132: pSphere92
+    3300134: pSphere93
+    3300136: pSphere94
+    3300138: pSphere95
+    3300140: pSphere96
+    3300142: pSphere97
+    3300144: pTorus20
+    3300146: pTorus21
+    3300148: pTorus22
+    3300150: pTorus23
+    4300000: pSphere1
+    4300002: pSphere2
+    4300004: polySurface4
+    4300006: polySurface6
+    4300008: polySurface27
+    4300010: polySurface28
+    4300012: polySurface29
+    4300014: polySurface30
+    4300016: polySurface29
+    4300018: polySurface30
+    4300020: polySurface29
+    4300022: polySurface30
+    4300024: polySurface29
+    4300026: polySurface30
+    4300028: polySurface29
+    4300030: polySurface30
+    4300032: polySurface29
+    4300034: polySurface30
+    4300036: polySurface29
+    4300038: polySurface30
+    4300040: pSphere3
+    4300042: pSphere4
+    4300044: pSphere5
+    4300046: pSphere6
+    4300048: pSphere7
+    4300050: pCylinder2
+    4300052: pSphere46
+    4300054: pSphere47
+    4300056: pSphere48
+    4300058: pSphere49
+    4300060: pSphere62
+    4300062: pSphere63
+    4300064: pSphere64
+    4300066: pSphere65
+    4300068: pSphere50
+    4300070: pSphere51
+    4300072: pPipe1
+    4300074: pTorus20
+    4300076: pPipe2
+    4300078: pTorus21
+    4300080: pTorus22
+    4300082: pPipe3
+    4300084: polySurface16
+    4300086: pPipe11
+    4300088: polySurface18
+    4300090: pPipe13
+    4300092: polySurface12
+    4300094: pPipe7
+    4300096: polySurface13
+    4300098: polySurface14
+    4300100: pPipe9
+    4300102: polySurface20
+    4300104: pPipe15
+    4300106: polySurface22
+    4300108: pPipe17
+    4300110: polySurface24
+    4300112: pPipe19
+    4300114: polySurface26
+    4300116: pPipe21
+    4300118: pSphere83
+    4300120: pSphere84
+    4300122: pSphere85
+    4300124: pSphere86
+    4300126: pSphere87
+    4300128: pSphere88
+    4300130: pSphere89
+    4300132: pCylinder3
+    4300134: pTorus23
+    4300136: pSphere90
+    4300138: pSphere91
+    4300140: pSphere92
+    4300142: pSphere93
+    4300144: pSphere94
+    4300146: pSphere95
+    4300148: pSphere96
+    4300150: pSphere97
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 38
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
