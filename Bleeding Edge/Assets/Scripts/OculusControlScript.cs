@@ -15,5 +15,9 @@ public class OculusControlScript : MonoBehaviour {
 			UnityEngine.VR.InputTracking.Recenter();
 			UnityEngine.VR.VRSettings.showDeviceView = true;
 		}
+		if (CrossPlatformInputManager.GetButtonDown ("Submit")) {
+			PauseMenuScript.main.ShowMenu();
+			CowlBehaivor.main.ToBlack();
+		}
 	}
 }

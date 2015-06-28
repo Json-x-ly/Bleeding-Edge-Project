@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ExitSceneScript.cs" />
+     <Compile Include="Assets\PauseMenuScript.cs" />
      <Compile Include="Assets\Scripts\CameraPositionScript.cs" />
      <Compile Include="Assets\Scripts\CowlBehaivor.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
