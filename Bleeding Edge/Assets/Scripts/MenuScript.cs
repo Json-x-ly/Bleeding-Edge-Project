@@ -29,7 +29,7 @@ public class MenuScript : MonoBehaviour {
 	}
 	//this function will be used on our Play button
 	public void StartLevel () {
-		Application.LoadLevel (2); //this will load our first level from our build settings. "2" is the second scene in our game
+		Application.LoadLevel ("Level_01"); //this will load our first level from our build settings. "2" is the second scene in our game
 	}
 	//This function will be used on our "Yes" button in our Quit menu
 	public void ExitGame () {
