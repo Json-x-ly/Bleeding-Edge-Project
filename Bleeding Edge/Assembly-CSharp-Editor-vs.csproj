@@ -49,6 +49,7 @@
      <Compile Include="Assets\Editor\BezierCurveInspector.cs" />
      <Compile Include="Assets\Editor\BezierSplineInspector.cs" />
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\Editor\Custom_Standard_ShaderScript.cs" />
      <Compile Include="Assets\Editor\ImageEffects\AntialiasingEditor.cs" />
      <Compile Include="Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
      <Compile Include="Assets\Editor\ImageEffects\BloomEditor.cs" />

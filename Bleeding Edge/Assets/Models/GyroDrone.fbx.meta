@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: cbe6edc28be26ed409a79687c2e9b223
+timeCreated: 1435793738
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Eye_JNT
+    100002: Eye_Mesh
+    100004: Eye_Protector_JNT
+    100006: Eye_Protector_Mesh
+    100008: group1
+    100010: //RootNode
+    100012: Outer_JNT
+    100014: Outer_Mesh
+    100016: polySurface1
+    100018: polySurface2
+    100020: polySurface3
+    100022: polySurface4
+    100024: polySurface5
+    100026: ROOT
+    100028: transform1
+    400000: Eye_JNT
+    400002: Eye_Mesh
+    400004: Eye_Protector_JNT
+    400006: Eye_Protector_Mesh
+    400008: group1
+    400010: //RootNode
+    400012: Outer_JNT
+    400014: Outer_Mesh
+    400016: polySurface1
+    400018: polySurface2
+    400020: polySurface3
+    400022: polySurface4
+    400024: polySurface5
+    400026: ROOT
+    400028: transform1
+    2300000: Eye_Protector_Mesh
+    2300002: Outer_Mesh
+    2300004: polySurface1
+    2300006: polySurface2
+    2300008: polySurface3
+    2300010: polySurface4
+    2300012: polySurface5
+    3300000: Eye_Protector_Mesh
+    3300002: Outer_Mesh
+    3300004: polySurface1
+    3300006: polySurface2
+    3300008: polySurface3
+    3300010: polySurface4
+    3300012: polySurface5
+    4300000: polySurface5
+    4300002: polySurface1
+    4300004: polySurface3
+    4300006: polySurface2
+    4300008: polySurface4
+    4300010: Eye_Protector_Mesh
+    4300012: Outer_Mesh
+    7400000: Hover
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hover
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_JNT
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye_Mesh
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye_Mesh/group1
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye_Mesh/group1/polySurface1
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye_Mesh/group1/polySurface2
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye_Mesh/group1/polySurface3
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye_Mesh/group1/polySurface4
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye_Mesh/polySurface5
+        weight: 1
+      - path: ROOT/Eye_JNT/Eye_Mesh/transform1
+        weight: 1
+      - path: ROOT/Eye_Protector_JNT
+        weight: 1
+      - path: ROOT/Eye_Protector_JNT/Eye_Protector_Mesh
+        weight: 1
+      - path: ROOT/Outer_JNT
+        weight: 1
+      - path: ROOT/Outer_JNT/Outer_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,7 +13,7 @@ public class OculusControlScript : MonoBehaviour {
 	void Update () {
 		if (CrossPlatformInputManager.GetButtonDown ("Reset_Orient")) {
 			UnityEngine.VR.InputTracking.Recenter();
-			UnityEngine.VR.VRSettings.showDeviceView = true;
+			//UnityEngine.VR.VRSettings.showDeviceView = true;
 		}
 		if (CrossPlatformInputManager.GetButtonDown ("Submit")) {
 			PauseMenuScript.main.ShowMenu();
