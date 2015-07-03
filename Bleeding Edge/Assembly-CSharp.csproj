@@ -48,6 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Animation.cs" />
      <Compile Include="Assets\ExitSceneScript.cs" />
+     <Compile Include="Assets\LevelColorSwap.cs" />
+     <Compile Include="Assets\OculusStartScript.cs" />
      <Compile Include="Assets\PauseMenuScript.cs" />
      <Compile Include="Assets\Scripts\CameraPositionScript.cs" />
      <Compile Include="Assets\Scripts\CowlBehaivor.cs" />
@@ -64,7 +66,6 @@
      <Compile Include="Assets\Scripts\OculusControlScript.cs" />
      <Compile Include="Assets\Scripts\PlayerLogic.cs" />
      <Compile Include="Assets\Scripts\ScannerLogic.cs" />
-     <Compile Include="Assets\Shader\Custom_Standard_ShaderScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
