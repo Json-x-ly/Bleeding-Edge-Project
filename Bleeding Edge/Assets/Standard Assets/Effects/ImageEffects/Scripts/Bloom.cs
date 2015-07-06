@@ -45,14 +45,14 @@ namespace UnityStandardAssets.ImageEffects
 
         public HDRBloomMode hdr = HDRBloomMode.Auto;
         private bool doHdr = false;
-        public float sepBlurSpread = 2.5f;
+        public float sepBlurSpread = 10f;
 
         public BloomQuality quality = BloomQuality.High;
 
-        public float bloomIntensity = 0.5f;
-        public float bloomThreshold = 0.5f;
+        public float bloomIntensity = 5f;
+        public float bloomThreshold = 0.75f;
         public Color bloomThresholdColor = Color.white;
-        public int bloomBlurIterations = 2;
+        public int bloomBlurIterations = 4;
 
         public int hollywoodFlareBlurIterations = 2;
         public float flareRotation = 0.0f;
