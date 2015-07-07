@@ -38,6 +38,9 @@ Shader "Hidden/BrightPassFilter2"
 	half4 fragColorThresh(v2f i) : SV_Target 
 	{
 		half4 color = tex2D(_MainTex, i.uv);
+		if((i.uv.y+_Time.x*0.2)%0.11f>0.01f){
+			return half4(0,0,0,0);
+		}
 		color.rgb = max(half3(0,0,0), color.rgb-_Threshhold.rgb);
 		return color;
 	}	
