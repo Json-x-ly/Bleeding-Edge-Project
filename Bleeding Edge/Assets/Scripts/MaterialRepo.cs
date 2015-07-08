@@ -10,11 +10,14 @@ public class MaterialRepo : MonoBehaviour {
 	public static Color clr1E;
 	public static Color clr2E;
 	public static float t=1;
+	private static bool isBlue = true;
 	public static float transitionSpeed=1;
 
 	void Awake(){
 		GameObject[] mats = GameObject.FindObjectsOfType (typeof(GameObject))as GameObject[];
 		foreach (GameObject GO in mats) {
+			//if(GO.layer==LayerMask.GetMask
+
 			MeshRenderer render = GO.GetComponent<MeshRenderer> ();
 			if (render == null)
 				continue;
@@ -51,6 +54,10 @@ public class MaterialRepo : MonoBehaviour {
 		}
 	}
 	public static void TurnRed(){
+		if (!isBlue)
+			return;
+		isBlue = false;
+		Debug.Log ("Turning to Red");
 		clr1S = new Color (0.000f, 1.723f, 35.695f, 55.000f);
 		clr1E = Color.red;
 		clr2S = Color.cyan;
@@ -58,6 +65,10 @@ public class MaterialRepo : MonoBehaviour {
 		t = 0;
 	}
 	public static void TurnBlue(){
+		if (isBlue)
+			return;
+		isBlue = true;
+		Debug.Log ("Turning to Blue");
 		clr1S = Color.red;
 		clr1E = new Color (0.000f, 1.723f, 35.695f, 55.000f);
 		clr2S = Color.red;
