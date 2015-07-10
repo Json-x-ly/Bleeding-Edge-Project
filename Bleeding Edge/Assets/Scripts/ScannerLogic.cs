@@ -41,6 +41,7 @@ public class ScannerLogic : MonoBehaviour {
 			SeekTarget(PlayerLogic.main.transform.position);
 			if(distToPlayer>30){
 				state=_state.OnRail;
+				MaterialRepo.TurnBlue();
 			}
 
         break;
@@ -68,6 +69,7 @@ public class ScannerLogic : MonoBehaviour {
         }
 
 		if (distToPlayer < 20) {
+			MaterialRepo.TurnRed();
 			state=_state.HardTracking;
 		}
         return false;

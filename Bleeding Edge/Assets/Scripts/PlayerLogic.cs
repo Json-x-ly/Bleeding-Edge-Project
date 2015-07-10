@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class PlayerLogic : MonoBehaviour {
 	public static PlayerLogic main;
 	void Awake(){
@@ -10,5 +11,7 @@ public class PlayerLogic : MonoBehaviour {
 			Debug.LogError("Scene Already has a player logic");
 			Destroy(gameObject);
 		}
+		gameObject.AddComponent<MaterialRepo> ();
+
 	}
 }
