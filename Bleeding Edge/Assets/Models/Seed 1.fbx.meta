@@ -1,18 +1,25 @@
 fileFormatVersion: 2
-guid: 45504b438c7e0894cb40c9dff8d49fab
-timeCreated: 1435528400
+guid: c66baa98bc4cf564f9369349fce5426b
+timeCreated: 1436486659
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: polySurface4
+    100000: Flower
+    100002: //RootNode
+    100004: Shell
+    400000: Flower
+    400002: //RootNode
+    400004: Shell
+    2300000: Flower
+    2300002: Shell
+    3300000: Flower
+    3300002: Shell
+    4300000: Flower
+    4300002: Shell
     9500000: //RootNode
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
