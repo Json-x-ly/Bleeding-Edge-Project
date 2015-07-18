@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ScannerLogic : MonoBehaviour {
     public BezierSpline path;
+	public SpotlightDetectionScript detector;
     public float t;
     public enum _state { OnRail,HardTracking,SoftTracking}
     public _state state = _state.OnRail;
@@ -43,6 +44,10 @@ public class ScannerLogic : MonoBehaviour {
 				state=_state.OnRail;
 				MaterialRepo.TurnBlue();
 			}
+			if (distToPlayer< 5){
+				PlayerLogic.main.Die();
+				Debug.Log ("I am now dead. fucker");
+			}
 
         break;
             case _state.SoftTracking:
@@ -67,10 +72,10 @@ public class ScannerLogic : MonoBehaviour {
         {
             return true;
         }
-
-		if (distToPlayer < 20) {
+		Debug.Log (detector.playerDetected);
+		if (detector.playerDetected) {
 			MaterialRepo.TurnRed();
-			state=_state.HardTracking;
+			state = _state.HardTracking;
 		}
         return false;
     }
@@ -83,9 +88,9 @@ public class ScannerLogic : MonoBehaviour {
         Ray down = new Ray(transform.position,      (transform.forward + -transform.up));
 
         float hori = IsHit(left);
-        hori-=IsHit(right);
+        hori -= IsHit(right);
         float vert=IsHit(up);
-        vert-=IsHit(down);
+        vert -= IsHit(down);
         transform.Rotate(new Vector3(vert, hori, 0) * Time.deltaTime*20);
     }
     float IsHit(Ray ray)
@@ -94,7 +99,6 @@ public class ScannerLogic : MonoBehaviour {
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, dist))
         {
-
             Debug.DrawRay(ray.origin, ray.direction * dist, Color.red);
             return dist - hit.distance;
         }

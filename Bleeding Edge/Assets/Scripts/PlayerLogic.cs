@@ -4,6 +4,7 @@ using System.Collections;
 
 public class PlayerLogic : MonoBehaviour {
 	public static PlayerLogic main;
+
 	void Awake(){
 		if (main == null) {
 			main = this;
@@ -12,6 +13,10 @@ public class PlayerLogic : MonoBehaviour {
 			Destroy(gameObject);
 		}
 		gameObject.AddComponent<MaterialRepo> ();
+	}
 
+	public void Die(){
+		PauseMenuScript.main.IAmNowDead();
+		CowlBehaivor.main.toDeath();
 	}
 }
