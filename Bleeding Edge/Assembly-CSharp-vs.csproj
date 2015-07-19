@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\OculusStartScript.cs" />
      <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
      <Compile Include="Assets\Scripts\PlayerLogic.cs" />
+     <Compile Include="Assets\Scripts\RemoveWhenNear.cs" />
      <Compile Include="Assets\Scripts\ScanlineEffects.cs" />
      <Compile Include="Assets\Scripts\ScannerLogic.cs" />
      <Compile Include="Assets\Scripts\SpotlightDetectionScript.cs" />
