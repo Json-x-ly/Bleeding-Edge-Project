@@ -22,7 +22,7 @@ public class SpotlightDetectionScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//Vector3 vectToTarget = PlayerLogic.main.transform.position - transform.position;
+	
 	}
 	
 	bool checkPlayerDetection () {
