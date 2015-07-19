@@ -621,7 +621,7 @@ ModelImporter:
     7400004: hit
     9500000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
