@@ -67,3 +67,5 @@ Bleeding Edge/Bleeding Edge-csharp.sln
 *.sln
 *.sln
 Bleeding Edge/Bleeding Edge-csharp.sln
+*.meta
+*.meta
