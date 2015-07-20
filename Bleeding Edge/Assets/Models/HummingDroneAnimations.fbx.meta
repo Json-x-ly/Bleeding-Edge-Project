@@ -149,7 +149,7 @@ ModelImporter:
     4300022: polySurface16
     4300024: polySurface17
     4300026: polySurface18
-    7400000: Take 001
+    7400000: HummingDrone_Hover
     9500000: //RootNode
   materials:
     importMaterials: 0
@@ -172,7 +172,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: HummingDrone_Hover
       takeName: Take 001
       firstFrame: 1
       lastFrame: 120
@@ -182,7 +182,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0

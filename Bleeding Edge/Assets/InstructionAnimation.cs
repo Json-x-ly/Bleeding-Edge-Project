@@ -31,6 +31,9 @@ public class InstructionAnimation : MonoBehaviour {
 	{
 		frameValRoof = (frames.Length-1) / framesPerSecond;
 		frameValFloor = 0;
+
+		GetComponent<Renderer>().material.mainTexture = frames[0];
+		GetComponent<Renderer>().material.SetTexture("_EmissionMap", frames[0]);
 	}
 
 	void Update () {
