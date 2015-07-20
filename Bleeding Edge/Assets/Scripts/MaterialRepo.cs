@@ -25,15 +25,18 @@ public class MaterialRepo : MonoBehaviour {
 			if (render == null)
 				continue;
 
-			Material mat = render.material;
-			if (mat == null)
-				continue;
+			Material[] matGroup = render.materials;
+			foreach (var mat in matGroup) {
+				
+				if (mat == null)
+					continue;
 
-			//Debug.Log (mat.name);
-			if (repo.Contains (mat))
-				continue;
+				//Debug.Log (mat.name);
+				if (repo.Contains (mat))
+					continue;
 
-			repo.Add (mat);
+				repo.Add (mat);
+			}
 		}
 		GameObject[] enemyMats = GameObject.FindGameObjectsWithTag ("Enemy") as GameObject[];
 		foreach (GameObject GO in enemyMats) {
