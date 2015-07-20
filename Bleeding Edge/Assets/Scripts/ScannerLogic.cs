@@ -70,8 +70,12 @@ public class ScannerLogic : MonoBehaviour {
 		float spin = Vector3.Dot (-transform.right, Vector3.up);
 		Vector3 rot = new Vector3 (upDotDir, rightDotDir, spin);
 		transform.Rotate (rot * Time.deltaTime * turnSpeed);
-		transform.parent.transform.position += transform.forward * Time.deltaTime * moveSpeed * Mathf.Max (0.1f, forwardDotDir);
-
+		if (this.transform.parent != null) {
+			transform.parent.transform.position += transform.forward * Time.deltaTime * moveSpeed * Mathf.Max (0.1f, forwardDotDir);
+		}
+		else {
+			transform.position += transform.forward * Time.deltaTime * moveSpeed * Mathf.Max (0.1f, forwardDotDir);
+		}
 		if (dist < 1.5f) {
 			return true;
 		}
