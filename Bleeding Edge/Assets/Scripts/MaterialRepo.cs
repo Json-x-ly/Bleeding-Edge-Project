@@ -17,23 +17,25 @@ public class MaterialRepo : MonoBehaviour {
 	public static float transitionSpeed=1;
 
 	void Awake(){
-		GameObject[] mats = GameObject.FindGameObjectsWithTag ("Buildings")as GameObject[];
-		foreach (GameObject GO in mats) {
+		GameObject[] gameObjects = GameObject.FindGameObjectsWithTag ("Buildings")as GameObject[];
+		foreach (GameObject GO in gameObjects) {
 			//if(GO.layer==LayerMask.GetMask
 
 			MeshRenderer render = GO.GetComponent<MeshRenderer> ();
 			if (render == null)
 				continue;
+            Material[] mats = render.materials;
+            foreach (Material mat in mats)
+            {
+                if (mat == null)
+                    continue;
 
-			Material mat = render.material;
-			if (mat == null)
-				continue;
+                //Debug.Log (mat.name);
+                if (repo.Contains(mat))
+                    continue;
 
-			//Debug.Log (mat.name);
-			if (repo.Contains (mat))
-				continue;
-
-			repo.Add (mat);
+                repo.Add(mat);
+            }
 		}
 		GameObject[] enemyMats = GameObject.FindGameObjectsWithTag ("Enemy") as GameObject[];
 		foreach (GameObject GO in enemyMats) {
