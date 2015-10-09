@@ -1,14 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LightGenerator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\ShaderProjects\Assets\Shaders\First.shader">
     <Files>
-      <File FileName="Assets\LightGenerator.cs" Line="51" Column="44" />
+      <File FileName="..\..\ShaderProjects\Assets\Shaders\First.shader" Line="21" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="E:\Storage\GitHub\Bleeding-Edge-Project\Bleeding Edge\Assets\LightGenerator.cs" line="61" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

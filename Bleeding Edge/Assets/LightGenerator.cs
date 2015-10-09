@@ -38,7 +38,7 @@ public class LightGenerator : MonoBehaviour {
 	// Update is called once per frame
 	void LateUpdate () {
 		int numParticlesActive = pSystem.GetParticles(particles);
-		Debug.Log ("Active particles: " + numParticlesActive);
+		//Debug.Log ("Active particles: " + numParticlesActive);
 		for (int i = 0; i < numParticlesActive; i++) 
 		{
 			particles[i].size = 0.15f + (Mathf.Clamp01((Mathf.Sin(particles[i].position.y * pulseFrequency)+1)/2)*pulseSize);

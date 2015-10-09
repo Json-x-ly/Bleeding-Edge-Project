@@ -50,6 +50,7 @@
      <Compile Include="Assets\GlowControl.cs" />
      <Compile Include="Assets\InstructionAnimation.cs" />
      <Compile Include="Assets\LightGenerator.cs" />
+     <Compile Include="Assets\LogoBehavior.cs" />
      <Compile Include="Assets\Particles\Lightning\Example\Scripts\LoadSceneButton.cs" />
      <Compile Include="Assets\Particles\Lightning\Example\Scripts\Tutorial\ExampleShowToPoint.cs" />
      <Compile Include="Assets\Particles\Lightning\Example\Scripts\Tutorial\ExampleShowToTarget.cs" />
